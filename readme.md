@@ -1,0 +1,1 @@
+Rocket fundraising thermometer.

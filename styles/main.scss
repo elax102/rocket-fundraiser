@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+}
+
+.container{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#84FFFF, #00E5FF);
+}
+
+.rocket-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    bottom: 0%;
+    transition: bottom 5.0s;
+}
+
+.rocket{
+    position: absolute;
+    width: auto;
+    height: 256px;
+    bottom: 29%;
+    left: 44%;
+    // transform: translate(-50%, 50%);
+    z-index: 1;
+}
+
+.launch{
+    bottom: 80%;
+    transition: bottom 3.0s;
+}
+
+.meter{
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: bottom 0.5s;
+}
